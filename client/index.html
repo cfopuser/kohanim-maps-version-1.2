@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Custom GraphHopper Route with Exclusion Zones</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="map"></div>
+  <div id="controls">
+    <button id="drawBtn">Draw Exclusion Zone</button>
+    <button id="routeBtn">Calculate Route</button>
+    <p>Click map to set start and end points.</p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css"
+  />
+  <script src="app.js"></script>
+</body>
+</html>
