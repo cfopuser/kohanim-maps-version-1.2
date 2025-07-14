@@ -64,6 +64,7 @@
    ```
 
    
+>לאחר מכן תאלצו לשנות את השרת בindex.js מ `https://graphhopper.com/api/1/route?key=${GH_KEY}` ל `http://localhost:8989/rooute`
 
 ---
 
